@@ -16,5 +16,5 @@ npm install dotenv
 npm i @nomiclabs/hardhat-waffle
 npx hardhat compile
 npx hardhat compile --show-stack-traces
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
