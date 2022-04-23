@@ -1,2 +1,2 @@
 C:\Temp_\WhiteList-dApp\hardhat>npx hardhat run scripts/deploy.js --network rinkeby
-WhiteList Contract Address->  0x8d42584Ef593A11c0209103c2a51bA18FeE706e1
+WhiteList Contract Address->  0x7EE90d6C6055bEf844a274cfDC67f97116F7e825

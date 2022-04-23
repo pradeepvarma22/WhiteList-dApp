@@ -5,7 +5,7 @@ contract WhiteList{
 
     uint8 public maxWhiteListCount;
     uint8 public whiteListNumCount;
-    mapping(address=>bool) whiteListedAccounts;
+    mapping(address=>bool) public whiteListedAccounts;
     constructor(uint8 _maxWhiteListCount)
     {
         maxWhiteListCount=_maxWhiteListCount;
