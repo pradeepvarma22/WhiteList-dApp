@@ -136,8 +136,8 @@ export default function Home() {
       }
       else {
         return (
-          <div className={styles.button}>
-            <button onClick={addAddressToWhiteist_}>
+          <div>
+            <button onClick={addAddressToWhiteist_} className={styles.buttonClass}>
               Join the Whitelist
             </button>
           </div>
@@ -145,8 +145,8 @@ export default function Home() {
       }
     }
     else {
-      <div className={styles.button}>
-        <button onClick={connectWallet()}>Connect to Wallet</button>
+      <div>
+        <button onClick={connectWallet()} className={styles.buttonClass}>Connect to Wallet</button>
       </div>
     }
   };
@@ -169,7 +169,7 @@ export default function Home() {
             <img className={styles.image} src='./crypto-devs.svg' />
           </div>
         </div>
-        <div className={styles.buttonClass}>
+        <div>
           {renderButton()}
         </div>
 
